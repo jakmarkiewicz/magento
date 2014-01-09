@@ -67,9 +67,19 @@ jQuery(document).ready(function($){
 </div>
 <!-- / custom footer -->
 
+
+<!-- footer customer showcase -->
+<div class="footer-showcase">
+  <div class="additional-footer">
+   <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_customer_showcase')->toHtml(); ?>
+  </div>
+</div>
+<!-- / footer customer showcase -->
+
+
+
 <div class="footer-container">
     <div class="additional-footer">
-        
     <!-- perfectum footer -->
      <div id="footer">
         <?php if(themeOptions('topbtn')): ?>                    
@@ -80,16 +90,7 @@ jQuery(document).ready(function($){
    
   </div>
   </div>
-    
-    
-    
     <!-- / perfectum footer -->
-    
-    
-    
-    
-    
-   
 </div>
 
 
