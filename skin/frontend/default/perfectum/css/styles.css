@@ -5561,8 +5561,9 @@ margin:0;
 	margin: 0 auto 0;
 	padding: 0px;
 	width: 980px;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 15px;
 }
 .footer .links li {
 	text-transform: none;
@@ -5846,12 +5847,12 @@ h1.products-block-header {
 
 .products-block-subheader {
 	text-align:center;
-	font-size:12px;
+	font-size: 13px;
 	color:#928f8f;
 	margin:0px;
 	border-bottom:1px solid #ebe5e5;
 
-	padding-bottom:10px;
+	padding-bottom: 10px;
 }
 .box-product-buttons {
 
@@ -6176,6 +6177,8 @@ h1.products-block-header {
 	width:980px;
 	height: 50px;
 	margin: 0px 0px 0px 0px;
+	border-bottom: 1px solid #ebe5e5;
+	padding-bottom: 15px;
 }
 .footer-showcase .slide-logo {
 	width:245px;
@@ -6241,8 +6244,8 @@ h1.products-block-header {
 	color: #000000;
 	font-size: 18px;
 	margin-top: 0px;
-	margin-bottom: 20px;
-	text-transform:uppercase;
+	margin-bottom: 10px;
+	/* text-transform:uppercase; */
 	font-weight:bold;
 }
 #footer .column {
@@ -6425,13 +6428,14 @@ h1.products-block-header {
 }
 .custom-footer .custom-footer-column h1 {
 	font-size:18px;
+	font-weight: bold;
 	color:#000;
 	padding-bottom:18px;
 	border-bottom:1px solid #d8d5d5;
 	margin-bottom: 20px;
 	margin-top:0px;
 	
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 }
 .custom-footer .custom-footer-column .line {
 	background-color: #F2532F;
