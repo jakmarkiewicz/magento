@@ -6430,12 +6430,10 @@ h1.products-block-header {
 	font-size:18px;
 	font-weight: bold;
 	color:#000;
-	padding-bottom:18px;
+	padding-bottom: 5px;
 	border-bottom:1px solid #d8d5d5;
-	margin-bottom: 20px;
-	margin-top:0px;
 	
-	/* text-transform:uppercase; */
+	margin: 0 0 20px 0;
 }
 .custom-footer .custom-footer-column .line {
 	background-color: #F2532F;
@@ -6547,6 +6545,6 @@ h1.products-block-header {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   /* Chrome- and Safari-specific CSS here*/
   .custom-footer .custom-footer-column .line {
-	margin-top: 41px;
+	margin-top: 29px;
   }
 }
