@@ -1121,7 +1121,12 @@ tr.summary-details-excluded {
 }
 #header_menu .links {
 	text-align:right;
-	
+}
+#header_menu .link-shop {
+	text-align:left;
+	margin: -16px 0 0 0;
+	font-size: 13px;
+	font-weight: bold;
 }
 #header_menu .form-language {
 	width:95px;
