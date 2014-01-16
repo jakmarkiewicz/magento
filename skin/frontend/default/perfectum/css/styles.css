@@ -6255,9 +6255,17 @@ h1.products-block-header {
 }
 #footer .column {
 	float: left;
-	width: 225px;
+	width: 176px;
 	margin-left:10px;
 	margin-right:10px;
+}
+#footer .column .catalogue-text a {
+    text-align: left;
+    line-height: 18px;
+    color: #666669;
+    position: absolute;
+    margin: 8px 0 0 6px;
+    width: 82px;
 }
 #footer .column ul {
 	margin:0;
