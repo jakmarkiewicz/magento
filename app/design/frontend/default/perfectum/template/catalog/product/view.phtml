@@ -242,32 +242,21 @@
 
 <!-- Update product price in realtime based on quantity -->
 <script type="text/javascript">
-var price = jQuery('#price-including-tax-25').html();
+
+var price = jQuery('.price-including-tax').find(".price").html();
 var number = Number(price.replace(/[^0-9\.]+/g,""));
 
-jQuery('#qty').keyup(function(){
-    if(jQuery(this).val() != '' && isNumber(jQuery(this).val()) && jQuery(this).val() > 0)
-    {
+var priceExTax = jQuery('.price-excluding-tax').find(".price").html();
+var number2 = Number(priceExTax.replace(/[^0-9\.]+/g,""));
+
+var changeQty = function(){
     var qty = jQuery('#qty').val();
-
     var total = number * qty;
-    jQuery('#price-including-tax-25').html("£" + total.toFixed(2));
-    }
-    else
-    {
-        jQuery('#price-including-tax-25').html('500');
-    }
-});
-
-function isNumber(n) {
-    return !isNaN(parseFloat(n)) && isFinite(n);
+    var total2 = number2 * qty;
+    jQuery('.price-including-tax').find(".price").html("£" + total.toFixed(2));
+    jQuery('.price-excluding-tax').find(".price").html("£" + total2.toFixed(2));
 }
-</script>
 
-<!-- For testing - remove later
-var price = jQuery('#price-including-tax-25').html();
-var number = Number(price.replace(/[^0-9\.]+/g,""));
-var qty = jQuery('#qty').val();
-var total = number * qty;
-jQuery('#price-including-tax-25').html(total); 
--->
+jQuery('#qty').keyup(changeQty);
+
+</script>
