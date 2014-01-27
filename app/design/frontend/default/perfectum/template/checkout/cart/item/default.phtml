@@ -31,6 +31,17 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
             <?php endforeach; ?>
         </dl>
         <?php endif;?>
+
+<!-- Code to display Setup Fee starts here -->
+        <?php if ($setup_fee = $this->getSetupFee()) : ?>
+        <dl class="item-options">
+               <dt>Setup Fees</dt>
+               <dd><?php if ($setup_fee): ?>Setup Fee Name - <?php echo $this->helper('checkout')->formatPrice($setup_fee) ?><?php endif; ?></dd>
+             <!-- if you have additional setup Fees, they can be put here as <dd> list entries -->
+        </dl>
+        <?php endif; ?>
+<!-- Code to display setup Fee ends here -->
+        
         <?php if ($messages = $this->getMessages()): ?>
         <?php foreach ($messages as $message): ?>
             <p class="item-msg <?php echo $message['type'] ?>">* <?php echo $message['text'] ?></p>
