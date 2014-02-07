@@ -4,7 +4,7 @@
     <div class="block-content">
         <span class="button-show"><a href="<?php echo $this->getUrl('checkout/cart')?>"><?php echo $this->__('Shopping Cart')?></a>
         - <?php if ($this->canApplyMsrp()): ?>
-            <span class="map-cart-sidebar-total"><?php echo $this->__('ORDER TOTAL WILL BE DISPLAYED BEFORE YOU SUBMIT THE ORDER'); ?></span>
+            <checkspan class="map-cart-sidebar-total"><?php echo $this->__('ORDER TOTAL WILL BE DISPLAYED BEFORE YOU SUBMIT THE ORDER'); ?></span>
         <?php else: ?>
             <?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?>
             <?php if ($_subtotalInclTax = $this->getSubtotalInclTax()): ?>
@@ -41,7 +41,7 @@
                     <?php endif; ?> 
                 </div>                                  
                 <button type="button" title="<?php echo $this->__('View Cart') ?>" class="button btn-view" onclick="window.location='<?php echo $this->getUrl('checkout/cart')?>';"><span><span><?php echo $this->__('View Cart') ?></span></span></button>                                
-                <button type="button" title="<?php echo $this->__('Checkout') ?>" class="button btn-checkout" onclick="window.location='<?php echo $this->getUrl('checkout/onepage')?>';"><span><span><?php echo $this->__('Checkout') ?></span></span></button>                                
+                <button type="button" title="<?php echo $this->__('Checkout') ?>" class="button btn-checkout" onclick="window.location='<?php echo $this->getUrl('onepagecheckout')?>';"><span><span><?php echo $this->__('Checkout') ?></span></span></button>                                
             </div>
         <script type="text/javascript">decorateList('cart-sidebar', 'none-recursive')</script>
 

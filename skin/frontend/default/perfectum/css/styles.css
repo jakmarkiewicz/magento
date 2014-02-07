@@ -265,7 +265,7 @@ ul, ol {
 	float: left;
 	width: 32%;
 	margin-left: 2%;
-	border:1px solid #F5F5F5;
+	/* border:1px solid #F5F5F5; */
 	
 }
 .col3-set .col-3 {

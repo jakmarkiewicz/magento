@@ -10,15 +10,13 @@
 <div class="header-container">
     <div class="header">
         <div class="header-left">
-            
-  
-            
+
             <?php if ($this->getIsHomePage()):?>
             <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
             <?php else:?>
             <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
             <?php endif?>
-            <div class="welcome-msg"><?php echo $this->getWelcome() ?></div>         
+            <div class="welcome-msg"><?php echo $this->getWelcome() ?></div>
             
         </div>
         
