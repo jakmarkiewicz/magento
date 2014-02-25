@@ -8,7 +8,7 @@
 #nav a:hover { display:block; text-decoration:none; }
 /*#nav li.over.parent a { color:#000; }*/
 /*#nav li.active.first { background: #f67f24; }*/
-#nav li.active.child a { color:#fff;  }
+#nav li.active.child a { color:#fff; }
 #nav li.active ul a:hover { color: #818181; }
 
 #nav span { display:block; cursor:pointer; white-space:nowrap; }

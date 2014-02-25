@@ -1556,6 +1556,8 @@ span.currency-code {
 #nav .homelink.active a{
 	color: #fff;
 }
+#nav > .level-top.active > a { color:#fff; }
+#nav > .level0:hover > a { color:#000; }
 #nav > li {
 	float: left;
 	border-top:0px solid #1e1e21;
@@ -1585,7 +1587,7 @@ span.currency-code {
 	color: #1e1e21;
 }
 #nav > li.active > a {
-	color: #1e1e21;
+	color: #fff;
 }
 #nav .custom_menu_item li a {
 	color:#1e1e21;
