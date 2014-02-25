@@ -1548,10 +1548,12 @@ span.currency-code {
 }
 #nav .homelink {
 	text-transform:uppercase;
-	font-size:14px;
 	font-weight:bold;
-	padding: 10px 20px 10px 20px;
 	color: black;
+	text-align: center;
+	line-height: 45px;
+	width: 45px;
+	/* display: table-cell; */
 }
 #nav .homelink.active a{
 	color: #fff;
@@ -1561,7 +1563,7 @@ span.currency-code {
 #nav > li {
 	float: left;
 	border-top:0px solid #1e1e21;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 15px 0px 15px;
 	
 }
 #nav > li.active a {
@@ -1573,9 +1575,16 @@ span.currency-code {
 }
 #nav .level-top > a, #nav .level-top > span, #nav .custommenuitem > a, #nav .custommenuitem > span {
 	text-transform:uppercase;
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: bold;
-	padding: 5px 0 5px 0;
+	/* padding: 6px 0 6px 0; */        
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	display: table-cell;
+	/* word-wrap: break-word; */
+	white-space: normal;
+	vertical-align: middle;
 }
 #nav > li.over, #nav > li:hover {
 	border:0px;
@@ -1600,8 +1609,9 @@ span.currency-code {
 
 #nav .custommenuitem {
 	float: right;
-	padding-right: 0;
-	padding: 5px 20px 5px 20px;
+	line-height: 45px;
+	/* padding-right: 0; */
+	/* padding: 5px 20px 5px 20px; */
 }
 
 #nav li.block_li > a > span, #nav li.block_li > a {
