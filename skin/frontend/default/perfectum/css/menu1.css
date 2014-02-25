@@ -6,14 +6,19 @@
 #nav li.over.parent {  }
 #nav a,
 #nav a:hover { display:block; text-decoration:none; }
+/*#nav li.over.parent a { color:#000; }*/
+/*#nav li.active.first { background: #f67f24; }*/
+#nav li.active.child a { color:#fff;  }
+#nav li.active ul a:hover { color: #818181; }
+
 #nav span { display:block; cursor:pointer; white-space:nowrap; }
 #nav li ul span { white-space:normal; }
 #nav a { float:left;  }
 .blocklist li,
 #nav ul.chield > li { display:block; float:left; padding: 0 0px 0 0;  }
-#nav .chield { margin-left:-1px; width: 952px; box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.15);
-	-webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.15);
+#nav .chield { margin-left:-1px; width: 952px; box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.15);
 }
 /* 1st Level */
 #nav ul li.parent { }
@@ -21,7 +26,6 @@
 #nav ul li.active { }
 #nav ul a {  },
 #nav ul a:hover { float:none; background:none; }
-#nav ul a:hover { \\text-decoration:underline; }
 #nav > li > ul > li > a {  }
 .blocklist li.parent > a span,
 #nav > li > ul > li.parent > a span { font-size: 13px; font-weight:bold;margin-left:10px; }
@@ -29,9 +33,9 @@
     
     
 }
-#nav ul li a { font-weight:normal; background:#1e1e21; }
+#nav ul li a { font-weight:normal; background:#fff; }
 #nav .level1 > a > span {
-    color:#fff;
+    color:#000;
     font-size: 14px;
     \\font-weight:bold;
     margin-left:0px;
@@ -39,36 +43,33 @@
 	text-transform: uppercase;
 }
 #nav .level1 > a:hover span {
-    color: #fff;
-	background-color: #1e1e21;
+    color: #000;
+	background-color: #fff;
 }
 #nav .custom_menu_item .level1 > a > span {
     margin-left:10px;
 }
 /* 2nd Level */
 #nav  ul,
-#nav div { top: 32px; left:-10000px; padding:3px 0 15px; background:#1e1e21; font-size:12px; }
+#nav div { top: 32px; left:-10000px; padding:3px 0 15px; background: #FFFFFF; font-size:12px; }
 .blocklist li,
 #nav > li > ul >li { width: 133px; margin:0 10px 0 0; }
 #nav div ul { position:static; width:auto; border:none; padding:0; }
-
-#nav ul.level0 { position:absolute; z-index: 1500; padding: 20px 15px 15px;top:38px;}
+#nav ul.level0 { position:absolute; z-index: 1500; padding: 20px 15px 15px; top: 39px; /* border-top: 1px solid #f67f24; */}
 
 /* ========================== */
 #nav > li > ul > li ul { margin-left:0px; }
 .blocklist > li > ul > li,
 #nav > li > ul > li ul > li {   }
 #nav > li > ul > li ul > li a, #nav .custom_menu_item li.level2 a {
-    color: #fff;
+    color: #000;
     /* padding: 10px; */
     padding: 10px 0 0 10px;
 }
 #nav > li > ul > li ul > li a:hover, #nav .custom_menu_item li.level2 a:hover {
-    
-    background:#1e1e21;
+    background:#fff;
     text-decoration:none;
 	color:gray;
-
 }
 .blocklist > li > ul > li {  }
 
@@ -85,9 +86,5 @@
 #nav li .shown-sub ul.shown-sub,
 #nav li .shown-sub li div.shown-sub { left:100px; }
 
-
-#nav ul li a:hover{
-    \\background:#fff;
-}
 /********** Navigation > */
 /* ======================================================================================= */

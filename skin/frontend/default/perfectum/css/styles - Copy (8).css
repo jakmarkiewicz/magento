@@ -1550,42 +1550,42 @@ span.currency-code {
 	text-transform:uppercase;
 	font-size:14px;
 	font-weight:bold;
-	padding: 10px 20px 10px 20px;
-	color: black;
+	\\background:url(../images/home-icon.png) 10px 13px no-repeat;
+	padding-left: 0px;
 }
-#nav .homelink.active a{
-	color: #fff;
+#nav .homelink:hover {
+	
 }
 #nav > li {
 	float: left;
 	border-top:0px solid #1e1e21;
-	padding: 0px 20px 0px 20px;
+	padding: 10px 20px 10px 20px;
 	
-}
-#nav > li.active a {
-	color: #000;
 }
 #nav > li a {
 	color: #FFF;
+	\\font-weight:bold;
 	border:0px;
+	
+	/* font-size: 11px; */
 }
 #nav .level-top > a, #nav .level-top > span, #nav .custommenuitem > a, #nav .custommenuitem > span {
 	text-transform:uppercase;
 	font-size: 14px;
 	font-weight: bold;
-	padding: 5px 0 5px 0;
 }
 #nav > li.over, #nav > li:hover {
 	border:0px;
-	background: #fff;
+	border-top:0px solid #f2532f;
+	
+	\\background-color:#fff;
 }
-
 
 #nav > li.over > a, #nav > li:hover > a {
-	color: #1e1e21;
+	color:gray;
 }
 #nav > li.active > a {
-	color: #1e1e21;
+	\\color:#f2532f;
 }
 #nav .custom_menu_item li a {
 	color:#1e1e21;
@@ -1599,7 +1599,6 @@ span.currency-code {
 #nav .custommenuitem {
 	float: right;
 	padding-right: 0;
-	padding: 5px 20px 5px 20px;
 }
 
 #nav li.block_li > a > span, #nav li.block_li > a {
