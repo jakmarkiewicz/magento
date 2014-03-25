@@ -28,7 +28,7 @@
                     <a class="level-top" href="#"><span><?php echo $block1Title; ?></span></a>
                     <div class="custom_menu_item"><?php echo $block1; ?></div>
                 </li>
-    		<?php endif; ?> 
+    		<?php endif; ?>
 
             <?php if ($block1 = $this->getChildHtml('custom_menu_item2')): ?>
                 <?php $block1Title = Mage::getModel('cms/block')->setStoreId(Mage::app()->getStore()->getId())->load('custom_menu_item2')->getTitle(); ?>
@@ -104,7 +104,7 @@
             
             <?php if($additionalLinkUrl && $additionalLink): ?>
                 <li class="level0 custommenuitem"><a href="<?php echo $additionalLinkUrl ?>" title="<?php echo $additionalLink ?>"><span><?php echo $additionalLink ?></span></a></li>
-            <?php endif ?> 
+            <?php endif ?>
                  
         </ul>
     </div>

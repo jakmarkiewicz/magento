@@ -3830,8 +3830,9 @@ span.currency-code {
 	width: 245px;
 }
 .related-product-h5 {
-	font-size:24px;
-	font-weight:bold;
+	font-size: 20px;
+	/* font-weight:bold; */
+	margin-left: 10px;
 }
 .product-collateral + .related-product-h5 {
 	margin-top:20px;
@@ -6056,7 +6057,7 @@ h1.products-block-header {
 .box-product-item .image {
 	
 	text-align:center;
-	border-bottom:1px solid #d8d5d5;
+	border-bottom: 1px solid #d8d5d5;
 	height:255px;
 	opacity: 1;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -6084,7 +6085,7 @@ h1.products-block-header {
 
 .box-product-item .name a {
 	font-size:13px;
-	color: #928f8f;
+	color: #000000;
 	margin-left:10px;
 	text-align:left;
 	text-decoration: none;
@@ -6099,7 +6100,7 @@ h1.products-block-header {
 	/* display: block; */
 	color: #ec221c;
 	/* margin-bottom: 10px; */
-	padding-top: 10px;
+	padding-top: 5px;
 	text-align:left;
 	font-size: 16px;
 	margin-left:10px;	
