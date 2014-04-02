@@ -365,8 +365,11 @@ if (tpj.fn.cssOriginal!=undefined)
 
 jQuery(document).ready(function() {
       
-      // Image animation
-      jQuery(".fade-image").live({
+    // Initialize page header
+    jQuery('#top').parent().css({ 'width': '100%', 'padding': '0', 'background-color': 'rgba(255, 255, 255, 0.8)'});
+
+    // Image animation
+    jQuery(".fade-image").live({
         mouseenter:
            function()
            {
