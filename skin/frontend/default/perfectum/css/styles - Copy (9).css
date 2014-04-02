@@ -215,8 +215,6 @@ ul, ol {
 	width: 980px;
 	margin: 0 auto;
 	text-align: left;
-	background: white;
-	padding: 20px 20px 0px 20px;
 }
 .page-print {
 	background: #fff;
@@ -236,7 +234,6 @@ ul, ol {
 .main {
 	min-height: 350px;
 	margin: 0 0 0px 0;
-	padding-bottom: 20px;
 }
 
 .col-left {
@@ -1138,17 +1135,17 @@ tr.summary-details-excluded {
 
 
 #header-menu-bg {
-	/* height: 30px; */
+	height: 30px;
 	width:100%;
 	background: #f5f5f5;
 }
 #header_menu {
 	height: 30px;
+	margin-top: -30px;
 	
 	width:980px;
-	margin: 0px auto;
-	padding: 0 20px 0 20px;
-	background-color: #FFF;
+	margin-left:auto;
+	margin-right:auto;
 }
 #header_menu .links {
 	text-align:right;
@@ -1207,10 +1204,8 @@ tr.summary-details-excluded {
 	color:#686161;
 }
 .right-bg {
-	background-color: #F67F24;
-	width: 1020px;
-	margin: 0 auto;
-	/* padding: 0 20px 0 20px; */
+	width:980px;
+	margin:0 auto;
 }
 .links li {
 	display: inline;
@@ -1323,13 +1318,9 @@ tr.summary-details-excluded {
 
 .header-container {
 	margin: 0px;
-	width: 980px;
-	margin:  0 auto;
-	background-color: white;
-	padding: 0 20px 0 20px;
 }
 .header {
-	padding: 10px 0 20px 0;
+	padding: 15px 0 15px 0;
 }
 .header .welcome-msg {
 	
@@ -1349,9 +1340,8 @@ tr.summary-details-excluded {
 .header .header-right .header-contact {
 	color: black;
 	text-align: right;
-	padding-top: 50px;
+	padding-top: 70px;
 	font-weight: bold;
-	font-size: 19px;
 }
 .header .header-left {
 	float: left;
@@ -1574,13 +1564,9 @@ span.currency-code {
 }
 
 .nav-container {
-	background-color: rgba(246, 127, 36, 0.8);
-	width: 1020px;
-	/* padding: 0 20px 0 20px; */
-	margin: 0 auto;
-	/* margin-bottom:20px; */
+	background: #1e1e21; 
+	margin-bottom:20px;
 	z-index: 1000;
-	width: 100%;
 }
 .fullwidthbanner-container {
 	margin-top:-20px;
@@ -5607,30 +5593,24 @@ margin:0;
 .footer-container {
 	width: 100%;
 	text-align: left;
-	background: white;
-	background-color: rgba(255, 255, 255, 0.7);
 }
 .footer-wrapper {
-	background-color: #2e2f33;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color:#2e2f33;
 }
 .footer {
 	margin: 0 auto;
 	width: 980px;
 	color:#ffffff;
-	background-color: #2e2f33;
-	padding: 10px 20px 10px 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .additional-footer {
 	margin: 0 auto 0;
-	padding: 0 20px 0 20px;
+	padding: 0px;
 	width: 980px;
-	/* margin-top: 30px; */
-	/* margin-bottom: 50px; */
-	/* padding-bottom: 15px; */
-	border-top: 10px solid #fff;
-	border-bottom: 30px solid #fff;
-	background: white;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 15px;
 }
 .footer .links li {
 	text-transform: none;
@@ -5919,8 +5899,7 @@ h1.products-block-header {
 	margin:0px;
 	border-bottom:1px solid #ebe5e5;
 
-	background: white;
-	padding: 10px 0 10px 0;
+	padding-bottom: 10px;
 }
 .box-product-buttons {
 
@@ -6236,12 +6215,8 @@ h1.products-block-header {
 	float:left;
 }
 .footer-showcase {
-	/* margin-top:20px; */
-	/* border-top: 20px solid #fff; */
+	margin-top:20px;
 	position:relative;
-	/* background: white; */
-	background-color: rgba(255, 255, 255, 0.7);
-	/* padding: 0 20px 0 20px; */
 }
 .footer-showcase-slider {
 	overflow:hidden;
@@ -6250,8 +6225,7 @@ h1.products-block-header {
 	height: 50px;
 	margin: 0px 0px 0px 0px;
 	border-bottom: 1px solid #ebe5e5;
-	padding: 20px 0 20px 0;
-	background-color: white;
+	padding-bottom: 15px;
 }
 .footer-showcase .slide-logo {
 	width:245px;
@@ -6266,6 +6240,7 @@ h1.products-block-header {
 	float:left;
 	width:245px;
 }
+
 .shop-news .news-block {
 	float:left;
 	width:225px;
@@ -6313,7 +6288,7 @@ h1.products-block-header {
 
 }
 #footer h3 {
-	color: #f67f24;
+	color: #000000;
 	font-size: 18px;
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -6491,18 +6466,15 @@ h1.products-block-header {
 /* --- */
 .custom-footer-wrapper {
 	background: #fafafa;
-	/* padding-top: 30px; */
-	/* padding-bottom: 30px; */
-	/* margin-top: 30px; */
-	background-color: rgba(255, 255, 255, 0.7);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
 }
 .custom-footer {
 	width:980px;
 	margin:0 auto;
 	text-align:left;
 	
-	background: #fafafa;
-	padding: 20px 20px 20px 20px;
 }
 .custom-footer .custom-footer-column {
 	width:225px;
@@ -6632,7 +6604,7 @@ h1.products-block-header {
   }
 }
 #nav > li.socialicons {
-	padding: 0 5px 0 5px;    
+	padding: 0 5px 0 5px;
 }
 #nav > li:hover.socialicons {
 	padding: 0 5px 0 5px;
