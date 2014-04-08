@@ -1,12 +1,7 @@
 
 <div id="top"></div>
 
-<div id="header_menu">
-    <?php echo $this->getChildHtml('store_language') ?><?php echo $this->getChildHtml('currency') ?><?php echo $this->getChildHtml('topLinks') ?>
-<!--     <ul class="link-shop">
-        <li class="first"><a href="#" title="RemarkableTrade">Visit trade website</a></li>       
-    </ul> -->
-</div>
+
 <div class="header-container">
     <div class="header">
         <div class="header-left">
@@ -22,7 +17,15 @@
         
         <div class="header-center">
             
-            <?php echo $this->getChildHtml('topBar') ?>              
+            <div class="login" onclick="location.href='<?php echo $this->getUrl('checkout/cart')?>'">
+                Your Account
+                <div class="login-menu">
+                    <?php echo $this->getChildHtml('topLinks') ?>
+                </div>
+            </div>
+
+
+            <?php echo $this->getChildHtml('topBar') ?>
 
         </div>        
         <div class="header-right">
@@ -30,9 +33,7 @@
             <div class="minicart-wrapper">
                 <div class="icon" onclick="location.href='<?php echo $this->getUrl('checkout/cart')?>'"></div>
                 <div class="minicart">
-                    
                     <?php echo $this->getChildHtml('top_cart') ?>
-                    
                 </div>
                 
             </div>

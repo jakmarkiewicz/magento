@@ -1326,10 +1326,10 @@ tr.summary-details-excluded {
 	width: 980px;
 	margin:  0 auto;
 	background-color: white;
-	padding: 0 20px 0 20px;
+	padding: 10px 20px 0 20px;
 }
 .header {
-	padding: 10px 0 20px 0;
+	padding: 10px 0 10px 0;
 }
 .header .welcome-msg {
 	
@@ -1366,9 +1366,9 @@ tr.summary-details-excluded {
 }
 .header .header-center {
 	float: left;
-	/* width: 20px; */
-	margin: -3px 0 0 227px;
+	margin: 0 0 0 105px;
 	text-align:center;
+	width: 320px;
 }
 #phone {
 	float:left;
@@ -1469,8 +1469,9 @@ span.currency-code {
 	background: none;
 }
 .top-bar {
-	float: left;
-	margin: 3px 0 0;
+	float: right;
+	/* margin: 3px 0 0; */
+	display: block;
 }
 .form-search {
 	height: 27px;
@@ -2072,6 +2073,49 @@ span.currency-code {
 .header .minicart {
 	float: right;
 	/* width:200px; */
+}
+.header .login {
+	/* background:#f2532f url("../images/cartmini.png") no-repeat 12px center; */
+	width: 100px;
+	/* height:39px; */
+	line-height: 31px;
+	float: left;
+	z-index: 200;
+	cursor: pointer;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 5px;
+	border: 1px solid #EDE9E9;
+}
+.header .arrow {
+	border-style: solid;
+	border-width: 0px 5px 5px;
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #BBB;
+	border-bottom: 5px solid #BBB;
+	position:absolute;
+}
+
+.header .login-menu ul {
+	display: none;
+	position:absolute;
+	padding: 0;
+	background-color: white;
+	z-index: 10000;
+	margin-top: 0px;
+	border: 1px solid #EDE9E9;
+	border-radius: 5px;
+}
+.header .login-menu li {
+	padding: 0;
+	width: 100px;
+	line-height: 27px;
+	display: block;
+}
+.header .login:hover ul {
+	display: block;
+}
+.header .login-menu a {
+	white-space:nowrap;
 }
 .header .icon {
 	background:#f2532f url("../images/cartmini.png") no-repeat 12px center;
