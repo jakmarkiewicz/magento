@@ -10,11 +10,11 @@
             <mandrill>
                 <class>Ebizmarts_Mandrill_Model</class>
             </mandrill>
-            <core>
+<!--             <core>
                 <rewrite>
                     <email_template>Ebizmarts_Mandrill_Model_Email_Template</email_template>
                 </rewrite>
-            </core>
+            </core> -->
         </models>
         <blocks>
             <mandrill>

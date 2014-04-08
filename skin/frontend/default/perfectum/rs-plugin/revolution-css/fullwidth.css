@@ -7,11 +7,12 @@
 
 
 .fullwidthbanner-container{
-       width:100%;
+       width: 1020px;
        position:relative;
-       padding:0;
-       max-height:498px !important;
+       /* padding: 0 20px 0 20px; */
+       /* max-height:498px !important; */
        overflow:hidden;
+       margin: 0 auto;
 }
 
 

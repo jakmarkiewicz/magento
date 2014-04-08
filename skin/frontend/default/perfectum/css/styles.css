@@ -5,7 +5,7 @@
 body {
 	font-family:Arial;
 	font-size: 12px;
-	color: #818181;
+	color: #000;
 	text-align: center;
 }
 
@@ -1367,7 +1367,7 @@ tr.summary-details-excluded {
 .header .header-center {
 	float: left;
 	/* width: 20px; */
-	margin: -3px 0 0 217px;
+	margin: -3px 0 0 227px;
 	text-align:center;
 }
 #phone {
@@ -1487,9 +1487,9 @@ span.currency-code {
 	
 	height: 29px;
 	padding: 1px 10px 1px 10px;
-	/* width: 205px; */
-	border-right:0px;
+	width: 140px;
 	color: rgb(201, 201, 201);
+	border-radius: 5px;
 }
 
 .form-search button.button {
@@ -1497,11 +1497,12 @@ span.currency-code {
 	background: url("../images/button-search.png") no-repeat center center #FFF;
 	height:33px;
 	text-indent:-99999px;
-	border:1px solid #ede9e9;
+	/* border:1px solid #ede9e9; */
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
-	width:40px;
+	width: 30px;
+	margin: 0 0 0 0;
 }
 .form-search button.button:hover {
 	border-color:#f2532f;
@@ -1583,7 +1584,7 @@ span.currency-code {
 	width: 100%;
 }
 .fullwidthbanner-container {
-	margin-top:-20px;
+	/* margin-top:-20px; */
 }
 #nav {
 	
@@ -2061,7 +2062,7 @@ span.currency-code {
 }
 .block-cart-header .button-show {
 	border:1px solid #EDE9E9;
-	border-right:0px;
+	border-radius: 5px;
 	position: relative;
 	color: #f2532f;
 	background: #FFF;
@@ -2081,9 +2082,12 @@ span.currency-code {
 	z-index: 2;
 	cursor: pointer;
 	margin-top:-3px;
+	margin-left: 10px;
+	margin-left: 1;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	border-radius: 2px;
+	/* border-radius: 2px; */
+	border-radius: 25px;
 }
 .header .icon:hover {
 	background-color:#000;
@@ -6174,7 +6178,7 @@ h1.products-block-header {
 	text-align:left;
 	width:980px;
 	margin: 0 auto;
-	margin-top:50px;
+	/* margin-top:50px; */
 }
 .shop-about .left {
 	width:200px;
