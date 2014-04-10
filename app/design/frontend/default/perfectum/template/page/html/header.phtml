@@ -17,8 +17,9 @@
         
         <div class="header-center">
             
-            <div class="login" onclick="location.href='<?php echo $this->getUrl('checkout/cart')?>'">
-                Your Account
+            <div class="login" onclick="location.href='<?php echo $this->getUrl('customer/account/login')?>'">
+                My Account
+                <div class="arrow"></div>
                 <div class="login-menu">
                     <?php echo $this->getChildHtml('topLinks') ?>
                 </div>
